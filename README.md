@@ -1,6 +1,6 @@
 # Simple generator for Kubernetes resources
 
-This generator creates a Dockerfile to containerize a Spring Boot application and well as the Kubernetes `service` and `deploymnet` resources files to deploy a Spring Boot application using `kubectl`
+This generator creates the Kubernetes `service` and `deploymnet` resources files to deploy a Spring Boot application using `kubectl`
 
 You will need to install the following command line tool:
 
@@ -11,7 +11,6 @@ You will need to install the following command line tool:
 
 `k8s-simple new` creates
 
-* A `Dockerfile` in the root directory
 * A `kubernetes` directory with a `service.yaml` and `deployment.yaml`
 
 
@@ -25,29 +24,21 @@ To use the install command you need to install [go-getter](https://github.com/ha
 
 ## Building and running the application
 
-There are some assumptions baked into this simple generator.  The generated Dockerfile has the main class name of `com.example.demo.DemoApplication`.
+This simple generator depends on a configyration to comtainerize your project code. The easiest way to do this is using the new `buildpack` support added in Spring Boot version 2.3.
 
-These are the default main class when creating a Spring Boot application from (start.spring.io) using the following `curl` command.
+### Build the Spring Boot project
 
-```
-curl https://start.spring.io/starter.tgz -d dependencies=web,actuator -d javaVersion=1.8 | tar -xzvf -
-```
+If you are using Minikube you should configure your terminal to use the same Docker environment:
 
-Please change the Dockerfile's main class as appropriate.  Note, more advanced generators, ones that build using the Jib plugin to Buildpacks,  would not require you to make this type of change.
-
-### Build the Spring Boot uber-jar
-
-```
-./mvn clean package
+```bash
+eval $(minikube docker-env)
 ```
 
-### Create the container
-```
-docker build -t demo:0.0.1-SNAPSHOT
-```
+Now, build the project and the project and create the container image:
 
-Note that `0.0.1.SNAPSHOT` should match the `<artifactId/>` in `pom.xml`
-
+```
+./mvn clean package spring-boot:build-image
+```
 
 ### Deploy to Kubernetes
 
@@ -58,4 +49,3 @@ kubectl apply -f kubernetes/
 Use `kubectl get all` to verify that the resources created.
 
 Accessing the application's endpoint varies based on the type of Kubernetes cluster you are using.  For example, if minikube is being used, look for the endpoint to access using the command `minikube service list`
-
