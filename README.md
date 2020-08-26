@@ -37,7 +37,7 @@ eval $(minikube docker-env)
 Now, build the project and the project and create the container image:
 
 ```
-./mvn clean package spring-boot:build-image
+./mvnw clean package spring-boot:build-image
 ```
 
 ### Deploy to Kubernetes
