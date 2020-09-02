@@ -1,51 +1,27 @@
-# Simple generator for Kubernetes resources
+# Introduction
 
-This generator creates the Kubernetes `service` and `deploymnet` resources files to deploy a Spring Boot application using `kubectl`
+This is a Spring Boot application that accesses a MySql Database.  The data model is a `User` that has an id, name and email address.  There is one controller with two endpoints:
 
-You will need to install the following command line tool:
+* `/demo/all` - lists all users  (GET REQUEST)
+* `/demo/add` - add a user (POST REQUEST)
 
-* [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+# Build and run
 
-
-## Generator Commands
-
-`k8s-simple new` creates
-
-* A `kubernetes` directory with a `service.yaml` and `deployment.yaml`
-
-
-## Generator installation
-
+To build the uberjar execute
 ```
-tss generator install --go-getter-url=github.com/markpollack/generator-k8s-simple
+./mvnw clean package
 ```
+And run using `java -jar ./target/accessing-data-mysql-0.0.1-SNAPSHOT.jar`
 
-To use the install command you need to install [go-getter](https://github.com/hashicorp/go-getter#installation-and-usage) CLI.
+# Using
 
-## Building and running the application
-
-This simple generator depends on a configyration to comtainerize your project code. The easiest way to do this is using the new `buildpack` support added in Spring Boot version 2.3.
-
-### Build the Spring Boot project
-
-If you are using Minikube you should configure your terminal to use the same Docker environment:
-
-```bash
-eval $(minikube docker-env)
+To view the users
+```
+curl 'localhost:8080/demo/all'
 ```
 
-Now, build the project and the project and create the container image:
-
+To add a user
 ```
-./mvnw clean package spring-boot:build-image
-```
-
-### Deploy to Kubernetes
-
-```
-kubectl apply -f kubernetes/
+curl localhost:8080/demo/add -d name=First -d email=someemail@someemailprovider.com
 ```
 
-Use `kubectl get all` to verify that the resources created.
-
-Accessing the application's endpoint varies based on the type of Kubernetes cluster you are using.  For example, if minikube is being used, look for the endpoint to access using the command `minikube service list`

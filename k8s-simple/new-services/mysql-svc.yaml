@@ -1,0 +1,17 @@
+---
+conditional:
+  onDependency: mysql-connector-java
+actions:
+  to: kubernetes/services/mysql/service.yaml
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  ports:
+    - port: 3306
+  selector:
+    app: mysql
