@@ -1,0 +1,1281 @@
+{
+  "_embedded" : {
+    "generatorMetadata" : [ {
+      "name" : "none",
+      "displayName" : "No deployment configuation",
+      "description" : "Does not add additional deployment configuration to the new project.",
+      "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+      "maintainer" : "risbergt@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "none",
+      "sourceUrl" : "github.com/simple-starters/generator-none",
+      "homeUrl" : "https://github.com/simple-starters/generator-none",
+      "commands" : "none new",
+      "id" : 11,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "hello-fun",
+            "displayName" : "Spring Cloud Function Serverless App",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "0.0.1-SNAPSHOT",
+            "sourceUrl" : "github.com/simple-starters/hello-fun?ref=v0.1.0",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/simple-starters/hello-fun",
+            "tags" : [ "spring", "cloud", "function" ],
+            "services" : null,
+            "maintainer" : "https://github.com/trisberg",
+            "description" : "A basic hello world Spring Cloud Function serverless app",
+            "iconUrl" : null,
+            "id" : 2
+          },
+          "generatorMetadataList" : [ {
+            "name" : "none",
+            "displayName" : "No deployment configuation",
+            "description" : "Does not add additional deployment configuration to the new project.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "none",
+            "sourceUrl" : "github.com/simple-starters/generator-none",
+            "homeUrl" : "https://github.com/simple-starters/generator-none",
+            "commands" : "none new",
+            "id" : 11
+          }, {
+            "name" : "knative-kustomize-skaffold",
+            "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+            "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, knative, spring",
+            "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+            "commands" : "knative new\nknative update",
+            "id" : 13
+          }, {
+            "name" : "kubernetes-resource-simple",
+            "displayName" : "Spring Boot on Kubernetes using kubectl apply",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/markpollack/generator-k8s-simple",
+            "homeUrl" : "https://github.com/markpollack/generator-k8s-simple",
+            "commands" : "k8s-simple new",
+            "id" : 14
+          }, {
+            "name" : "kubernetes-resource-skaffold",
+            "displayName" : "Spring Boot on Kubernetes using Skaffold",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files and skaffold.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/simple-starters/generator-k8s-skaffold",
+            "homeUrl" : "https://github.com/simple-starters/generator-k8s-skaffold",
+            "commands" : "k8s-simple new",
+            "id" : 15
+          } ],
+          "starterName" : "hello-fun-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/11"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/11"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/11/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "kubernetes-kustomize-skaffold",
+      "displayName" : "Spring Boot on Kubernetes using Kustomize and Skaffold",
+      "description" : "Deploy a Spring Boot application on Kubernetes using kustomize, off-the-shell kustomizations, and deploy using skaffold.",
+      "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+      "maintainer" : "mpollack@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "skaffold, kubernetes, spring",
+      "sourceUrl" : "github.com/markpollack/generator-k8s-kustomize-skaffold",
+      "homeUrl" : "https://github.com/markpollack/generator-k8s-kustomize-skaffold",
+      "commands" : "k8s new\nk8s update",
+      "id" : 12,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "spring-mysql-jpa",
+            "displayName" : "Spring Data JPA with MySQL",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "1.0.0",
+            "sourceUrl" : "github.com/markpollack/gs-accessing-data-mysql",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/spring-guides/gs-accessing-data-mysql",
+            "tags" : [ "database", "spring", "jpa", "mysql" ],
+            "services" : "mysql",
+            "maintainer" : "https://github.com/dsyer",
+            "description" : "A Spring Boot application that connects to a MySQL database and uses Spring Data JPA to access the database.  Contains stub code for accessing User data using Spring Data JPA.",
+            "iconUrl" : null,
+            "id" : 1
+          },
+          "generatorMetadataList" : [ {
+            "name" : "kubernetes-kustomize-skaffold",
+            "displayName" : "Spring Boot on Kubernetes using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application on Kubernetes using kustomize, off-the-shell kustomizations, and deploy using skaffold.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, spring",
+            "sourceUrl" : "github.com/markpollack/generator-k8s-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-k8s-kustomize-skaffold",
+            "commands" : "k8s new\nk8s update",
+            "id" : 12
+          } ],
+          "starterName" : "spring-mysql-jpa-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/21{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/21/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/21/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/21/generatorMetadataList"
+            }
+          }
+        }, {
+          "starterMetadata" : {
+            "name" : "initialzr-batch-application",
+            "displayName" : "Spring Initializr Batch applicaiton using PostreSQL -X",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "1.0.1",
+            "sourceUrl" : "https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.3.1.RELEASE&packaging=jar&jvmVersion=1.8&groupId=com.example&artifactId=demo&name=demo&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.demo&dependencies=batch,postgresql",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://start.spring.io",
+            "tags" : [ "java", "spring", "postgresql", "batch" ],
+            "services" : null,
+            "maintainer" : "https://github.com/markpollack",
+            "description" : "Initializr creates Spring Batch application using PostgreSQL",
+            "iconUrl" : null,
+            "id" : 9
+          },
+          "generatorMetadataList" : [ {
+            "name" : "kubernetes-kustomize-skaffold",
+            "displayName" : "Spring Boot on Kubernetes using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application on Kubernetes using kustomize, off-the-shell kustomizations, and deploy using skaffold.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, spring",
+            "sourceUrl" : "github.com/markpollack/generator-k8s-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-k8s-kustomize-skaffold",
+            "commands" : "k8s new\nk8s update",
+            "id" : 12
+          } ],
+          "starterName" : "initialzr-batch-application-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/29{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/29/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/29/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/29/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/12"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/12"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/12/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "knative-kustomize-skaffold",
+      "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+      "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+      "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+      "maintainer" : "mpollack@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "skaffold, kubernetes, knative, spring",
+      "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+      "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+      "commands" : "knative new\nknative update",
+      "id" : 13,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "hello-fun",
+            "displayName" : "Spring Cloud Function Serverless App",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "0.0.1-SNAPSHOT",
+            "sourceUrl" : "github.com/simple-starters/hello-fun?ref=v0.1.0",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/simple-starters/hello-fun",
+            "tags" : [ "spring", "cloud", "function" ],
+            "services" : null,
+            "maintainer" : "https://github.com/trisberg",
+            "description" : "A basic hello world Spring Cloud Function serverless app",
+            "iconUrl" : null,
+            "id" : 2
+          },
+          "generatorMetadataList" : [ {
+            "name" : "none",
+            "displayName" : "No deployment configuation",
+            "description" : "Does not add additional deployment configuration to the new project.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "none",
+            "sourceUrl" : "github.com/simple-starters/generator-none",
+            "homeUrl" : "https://github.com/simple-starters/generator-none",
+            "commands" : "none new",
+            "id" : 11
+          }, {
+            "name" : "knative-kustomize-skaffold",
+            "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+            "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, knative, spring",
+            "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+            "commands" : "knative new\nknative update",
+            "id" : 13
+          }, {
+            "name" : "kubernetes-resource-simple",
+            "displayName" : "Spring Boot on Kubernetes using kubectl apply",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/markpollack/generator-k8s-simple",
+            "homeUrl" : "https://github.com/markpollack/generator-k8s-simple",
+            "commands" : "k8s-simple new",
+            "id" : 14
+          }, {
+            "name" : "kubernetes-resource-skaffold",
+            "displayName" : "Spring Boot on Kubernetes using Skaffold",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files and skaffold.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/simple-starters/generator-k8s-skaffold",
+            "homeUrl" : "https://github.com/simple-starters/generator-k8s-skaffold",
+            "commands" : "k8s-simple new",
+            "id" : 15
+          } ],
+          "starterName" : "hello-fun-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/generatorMetadataList"
+            }
+          }
+        }, {
+          "starterMetadata" : {
+            "name" : "db-fun",
+            "displayName" : "Spring Cloud Function Serverless App with MySql",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "0.0.1-SNAPSHOT",
+            "sourceUrl" : "github.com/simple-starters/db-fun?ref=v0.1.0",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/simple-starters/db-fun",
+            "tags" : [ "spring", "cloud", "function", "mysql" ],
+            "services" : "mysql",
+            "maintainer" : "https://github.com/trisberg",
+            "description" : "A basic hello world Spring Cloud Function serverless app with db access",
+            "iconUrl" : null,
+            "id" : 3
+          },
+          "generatorMetadataList" : [ {
+            "name" : "knative-kustomize-skaffold",
+            "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+            "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, knative, spring",
+            "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+            "commands" : "knative new\nknative update",
+            "id" : 13
+          } ],
+          "starterName" : "db-fun-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/23{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/23/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/23/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/23/generatorMetadataList"
+            }
+          }
+        }, {
+          "starterMetadata" : {
+            "name" : "kroger-logistics-freight-order-service",
+            "displayName" : "Kroger Logistics Freight Ordering Service - X",
+            "language" : "C#",
+            "framework" : "steeltoe",
+            "version" : "1.2.0",
+            "sourceUrl" : "github.com/markpollack/krogerlogistics",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/markpollack/krogerlogistics",
+            "tags" : [ "database", "steeltoe", "nhibernate", "postgresql" ],
+            "services" : "postgresql",
+            "maintainer" : "https://github.com/markpollack",
+            "description" : "Logistics Ordering service to tender freight orders to preferred company carriers, based on Krokger Enterprise Application Framework (EAF).",
+            "iconUrl" : null,
+            "id" : 6
+          },
+          "generatorMetadataList" : [ {
+            "name" : "knative-kustomize-skaffold",
+            "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+            "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, knative, spring",
+            "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+            "commands" : "knative new\nknative update",
+            "id" : 13
+          } ],
+          "starterName" : "kroger-logistics-freight-order-service-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          }, {
+            "name" : "github-repo-create-two-X",
+            "version" : "1.0.0",
+            "displayName" : "Create two github repositories, one for Code and one for Ops",
+            "description" : "Create two github repositories, one for Code and one for Ops.",
+            "iconUrl" : "https://i.imgur.com/kXXap7o.gif",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateOpsGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateOpsGitHubRepoStep"
+            } ],
+            "id" : 20
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/26{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/26/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/26/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/26/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/13"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/13"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/13/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "kubernetes-resource-simple",
+      "displayName" : "Spring Boot on Kubernetes using kubectl apply",
+      "description" : "Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.",
+      "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+      "maintainer" : "mpollack@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "kubernetes, spring",
+      "sourceUrl" : "github.com/markpollack/generator-k8s-simple",
+      "homeUrl" : "https://github.com/markpollack/generator-k8s-simple",
+      "commands" : "k8s-simple new",
+      "id" : 14,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "hello-fun",
+            "displayName" : "Spring Cloud Function Serverless App",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "0.0.1-SNAPSHOT",
+            "sourceUrl" : "github.com/simple-starters/hello-fun?ref=v0.1.0",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/simple-starters/hello-fun",
+            "tags" : [ "spring", "cloud", "function" ],
+            "services" : null,
+            "maintainer" : "https://github.com/trisberg",
+            "description" : "A basic hello world Spring Cloud Function serverless app",
+            "iconUrl" : null,
+            "id" : 2
+          },
+          "generatorMetadataList" : [ {
+            "name" : "none",
+            "displayName" : "No deployment configuation",
+            "description" : "Does not add additional deployment configuration to the new project.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "none",
+            "sourceUrl" : "github.com/simple-starters/generator-none",
+            "homeUrl" : "https://github.com/simple-starters/generator-none",
+            "commands" : "none new",
+            "id" : 11
+          }, {
+            "name" : "knative-kustomize-skaffold",
+            "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+            "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, knative, spring",
+            "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+            "commands" : "knative new\nknative update",
+            "id" : 13
+          }, {
+            "name" : "kubernetes-resource-simple",
+            "displayName" : "Spring Boot on Kubernetes using kubectl apply",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/markpollack/generator-k8s-simple",
+            "homeUrl" : "https://github.com/markpollack/generator-k8s-simple",
+            "commands" : "k8s-simple new",
+            "id" : 14
+          }, {
+            "name" : "kubernetes-resource-skaffold",
+            "displayName" : "Spring Boot on Kubernetes using Skaffold",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files and skaffold.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/simple-starters/generator-k8s-skaffold",
+            "homeUrl" : "https://github.com/simple-starters/generator-k8s-skaffold",
+            "commands" : "k8s-simple new",
+            "id" : 15
+          } ],
+          "starterName" : "hello-fun-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/14"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/14"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/14/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "kubernetes-resource-skaffold",
+      "displayName" : "Spring Boot on Kubernetes using Skaffold",
+      "description" : "Deploy a Spring Boot application using a few Kubernetes resource files and skaffold.",
+      "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+      "maintainer" : "risbergt@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "kubernetes, spring",
+      "sourceUrl" : "github.com/simple-starters/generator-k8s-skaffold",
+      "homeUrl" : "https://github.com/simple-starters/generator-k8s-skaffold",
+      "commands" : "k8s-simple new",
+      "id" : 15,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "hello-fun",
+            "displayName" : "Spring Cloud Function Serverless App",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "0.0.1-SNAPSHOT",
+            "sourceUrl" : "github.com/simple-starters/hello-fun?ref=v0.1.0",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/simple-starters/hello-fun",
+            "tags" : [ "spring", "cloud", "function" ],
+            "services" : null,
+            "maintainer" : "https://github.com/trisberg",
+            "description" : "A basic hello world Spring Cloud Function serverless app",
+            "iconUrl" : null,
+            "id" : 2
+          },
+          "generatorMetadataList" : [ {
+            "name" : "none",
+            "displayName" : "No deployment configuation",
+            "description" : "Does not add additional deployment configuration to the new project.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "none",
+            "sourceUrl" : "github.com/simple-starters/generator-none",
+            "homeUrl" : "https://github.com/simple-starters/generator-none",
+            "commands" : "none new",
+            "id" : 11
+          }, {
+            "name" : "knative-kustomize-skaffold",
+            "displayName" : "Spring Boot with Knative Service using Kustomize and Skaffold",
+            "description" : "Deploy a Spring Boot application using Jib for build, kustomize off-the-shell kustomizations for Knative Service, and deploy using skaffold.",
+            "iconUrl" : "https://avatars3.githubusercontent.com/u/35583233?s=280&v=4",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, knative, spring",
+            "sourceUrl" : "github.com/markpollack/generator-knative-kustomize-skaffold",
+            "homeUrl" : "https://github.com/markpollack/generator-knative-kustomize-skaffold",
+            "commands" : "knative new\nknative update",
+            "id" : 13
+          }, {
+            "name" : "kubernetes-resource-simple",
+            "displayName" : "Spring Boot on Kubernetes using kubectl apply",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files with kubectl.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/markpollack/generator-k8s-simple",
+            "homeUrl" : "https://github.com/markpollack/generator-k8s-simple",
+            "commands" : "k8s-simple new",
+            "id" : 14
+          }, {
+            "name" : "kubernetes-resource-skaffold",
+            "displayName" : "Spring Boot on Kubernetes using Skaffold",
+            "description" : "Deploy a Spring Boot application using a few Kubernetes resource files and skaffold.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "risbergt@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "kubernetes, spring",
+            "sourceUrl" : "github.com/simple-starters/generator-k8s-skaffold",
+            "homeUrl" : "https://github.com/simple-starters/generator-k8s-skaffold",
+            "commands" : "k8s-simple new",
+            "id" : 15
+          } ],
+          "starterName" : "hello-fun-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/22/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/15"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/15"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/15/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "docker-compose",
+      "displayName" : "Spring deployment of dependent services using docker-compose",
+      "description" : "Deploy a Spring Boot application and access dependent services using Docker.",
+      "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+      "maintainer" : "mpollack@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "docker, spring",
+      "sourceUrl" : "github.com/markpollack/generator-docker-compose-spring",
+      "homeUrl" : "https://github.com/markpollack/generator-docker-compose-spring",
+      "commands" : "docker-compose new",
+      "id" : 16,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "spring-postgres-jpa",
+            "displayName" : "Spring Data JPA with Postgres",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "1.0.0",
+            "sourceUrl" : "github.com/markpollack/docker-compose-postgres",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/markpollack/docker-compose-postgres",
+            "tags" : [ "spring", "database", "jpa", "postgresql" ],
+            "services" : null,
+            "maintainer" : "https://github.com/markpollack",
+            "description" : "A Spring Boot application that connects to a PostgreSQL database and uses Spring Data JPA to access the database.  Contains code for accessing Quote data.",
+            "iconUrl" : null,
+            "id" : 4
+          },
+          "generatorMetadataList" : [ {
+            "name" : "docker-compose",
+            "displayName" : "Spring deployment of dependent services using docker-compose",
+            "description" : "Deploy a Spring Boot application and access dependent services using Docker.",
+            "iconUrl" : "https://icon-library.com/images/rick-sanchez-icon/rick-sanchez-icon-24.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "docker, spring",
+            "sourceUrl" : "github.com/markpollack/generator-docker-compose-spring",
+            "homeUrl" : "https://github.com/markpollack/generator-docker-compose-spring",
+            "commands" : "docker-compose new",
+            "id" : 16
+          } ],
+          "starterName" : "spring-postgres-jpa-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/24{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/24/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/24/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/24/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/16"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/16"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/16/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "kubernetes-steeltoe-skaffold",
+      "displayName" : "Steeltoe Kubernetes Deployment using Skaffold",
+      "description" : "Deploy a Steeltoe using Docker for build, kustomize for YAML management, and deploy using skaffold.",
+      "iconUrl" : "https://www.3dflow.net/forums/core/image.php?userid=98&dateline=1500310086",
+      "maintainer" : "mpollack@vmware.com",
+      "version" : "1.0.0",
+      "tags" : "skaffold, kubernetes, steeltoe",
+      "sourceUrl" : "https://gitlab.eng.vmware.com/tanzu-starter-service/tss/tree/master/tss-default-generators",
+      "homeUrl" : "https://gitlab.eng.vmware.com/tanzu-starter-service/tss/tree/master/tss-default-generators",
+      "commands" : "kubernetesdotnet new\nkubernetesdotnet update",
+      "id" : 17,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "fry-pharm-backend",
+            "displayName" : "Fry's Food - Pharmacy Backend Service - X",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "1.0.0",
+            "sourceUrl" : "github.com/markpollack/frysfoodpharmbackend",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/markpollack/frysfoodpharmbackend",
+            "tags" : [ "database", "spring", "jpa", "mysql" ],
+            "services" : "mysql",
+            "maintainer" : "https://github.com/markpollack",
+            "description" : "The Fry's Pharmacy Backend service based on Kroger   Enterprise Application Framework (EAF), with SSO and common pharmacy services library support.",
+            "iconUrl" : null,
+            "id" : 5
+          },
+          "generatorMetadataList" : [ {
+            "name" : "kubernetes-steeltoe-skaffold",
+            "displayName" : "Steeltoe Kubernetes Deployment using Skaffold",
+            "description" : "Deploy a Steeltoe using Docker for build, kustomize for YAML management, and deploy using skaffold.",
+            "iconUrl" : "https://www.3dflow.net/forums/core/image.php?userid=98&dateline=1500310086",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, steeltoe",
+            "sourceUrl" : "https://gitlab.eng.vmware.com/tanzu-starter-service/tss/tree/master/tss-default-generators",
+            "homeUrl" : "https://gitlab.eng.vmware.com/tanzu-starter-service/tss/tree/master/tss-default-generators",
+            "commands" : "kubernetesdotnet new\nkubernetesdotnet update",
+            "id" : 17
+          } ],
+          "starterName" : "fry-pharm-backend-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create-two-X",
+            "version" : "1.0.0",
+            "displayName" : "Create two github repositories, one for Code and one for Ops",
+            "description" : "Create two github repositories, one for Code and one for Ops.",
+            "iconUrl" : "https://i.imgur.com/kXXap7o.gif",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateOpsGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateOpsGitHubRepoStep"
+            } ],
+            "id" : 20
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/25{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/25/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/25/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/25/generatorMetadataList"
+            }
+          }
+        }, {
+          "starterMetadata" : {
+            "name" : "dotnet-aspnet-hello",
+            "displayName" : "Base ASP.NET MVC Application -X",
+            "language" : "C#",
+            "framework" : "dotnet31",
+            "version" : "1.0.2",
+            "sourceUrl" : "https://github.com/markpollack/HelloWorldAspNetCore",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/markpollack/HelloWorldAspNetCore",
+            "tags" : [ "dotnet", "mvc-31", "web" ],
+            "services" : null,
+            "maintainer" : "https://github.com/markpollack",
+            "description" : "The Hello World ASP.NET application with SSO integration.",
+            "iconUrl" : null,
+            "id" : 8
+          },
+          "generatorMetadataList" : [ {
+            "name" : "kubernetes-steeltoe-skaffold",
+            "displayName" : "Steeltoe Kubernetes Deployment using Skaffold",
+            "description" : "Deploy a Steeltoe using Docker for build, kustomize for YAML management, and deploy using skaffold.",
+            "iconUrl" : "https://www.3dflow.net/forums/core/image.php?userid=98&dateline=1500310086",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "1.0.0",
+            "tags" : "skaffold, kubernetes, steeltoe",
+            "sourceUrl" : "https://gitlab.eng.vmware.com/tanzu-starter-service/tss/tree/master/tss-default-generators",
+            "homeUrl" : "https://gitlab.eng.vmware.com/tanzu-starter-service/tss/tree/master/tss-default-generators",
+            "commands" : "kubernetesdotnet new\nkubernetesdotnet update",
+            "id" : 17
+          } ],
+          "starterName" : "dotnet-aspnet-hello-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create-two-X",
+            "version" : "1.0.0",
+            "displayName" : "Create two github repositories, one for Code and one for Ops",
+            "description" : "Create two github repositories, one for Code and one for Ops.",
+            "iconUrl" : "https://i.imgur.com/kXXap7o.gif",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateOpsGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateOpsGitHubRepoStep"
+            } ],
+            "id" : 20
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/28{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/28/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/28/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/28/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/17"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/17"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/17/starters{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "cloudfoundry",
+      "displayName" : "Cloud Foundry Deployment using the Java Buildpack and RabbitMQ service",
+      "description" : "Deploy a Spring Boot application to Cloud Foundry with RabbitMQ service.",
+      "iconUrl" : "https://pbs.twimg.com/profile_images/1151235235968716800/VJI_bxtd_400x400.jpg",
+      "maintainer" : "mpollack@vmware.com",
+      "version" : "2.4.1",
+      "tags" : "cloudfoundry, java-buildpack, rabbitmq, spring",
+      "sourceUrl" : "github.com/markpollack/generator-cloudfoundry",
+      "homeUrl" : "https://github.com/markpollack/generator-cloudfoundry",
+      "commands" : "cloudfoundry new",
+      "id" : 18,
+      "_embedded" : {
+        "starters" : [ {
+          "starterMetadata" : {
+            "name" : "spring-rabbitmq",
+            "displayName" : "Spring and RabbitMQ Publisher - X",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "1.1.1",
+            "sourceUrl" : "github.com/spring-guides/gs-messaging-rabbitmq//complete",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/spring-guides/gs-messaging-rabbitmq",
+            "tags" : [ "messaging", "spring", "rabbitmq" ],
+            "services" : "rabbitmq",
+            "maintainer" : "https://github.com/dsyer",
+            "description" : "A Spring Boot application with stub code for publishing a message to RabbitMQ.",
+            "iconUrl" : null,
+            "id" : 7
+          },
+          "generatorMetadataList" : [ {
+            "name" : "cloudfoundry",
+            "displayName" : "Cloud Foundry Deployment using the Java Buildpack and RabbitMQ service",
+            "description" : "Deploy a Spring Boot application to Cloud Foundry with RabbitMQ service.",
+            "iconUrl" : "https://pbs.twimg.com/profile_images/1151235235968716800/VJI_bxtd_400x400.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "2.4.1",
+            "tags" : "cloudfoundry, java-buildpack, rabbitmq, spring",
+            "sourceUrl" : "github.com/markpollack/generator-cloudfoundry",
+            "homeUrl" : "https://github.com/markpollack/generator-cloudfoundry",
+            "commands" : "cloudfoundry new",
+            "id" : 18
+          } ],
+          "starterName" : "spring-rabbitmq-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/27{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/27/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/27/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/27/generatorMetadataList"
+            }
+          }
+        }, {
+          "starterMetadata" : {
+            "name" : "boot-angular-gateway-oidc",
+            "displayName" : "Spring Boot + Angular + Spring Cloud Gateway + OpenID Connect - X",
+            "language" : "java",
+            "framework" : "spring",
+            "version" : "1.0.0",
+            "sourceUrl" : "github.com/asaikali/boot-angular-gateway-oidc",
+            "sourceCommand" : null,
+            "sourceServiceUrl" : null,
+            "homeUrl" : "https://github.com/asaikali/boot-angular-gateway-oidc",
+            "tags" : [ "java", "spring", "angular", "spring-cloud-gateway", "openid-connect" ],
+            "services" : null,
+            "maintainer" : "https://github.com/asaikali",
+            "description" : "A Spring Boot application for implementing an API and using Angular for the frontend, served via Spring Cloud Gateway, Using Cloud Foundry Container to container networking.",
+            "iconUrl" : null,
+            "id" : 10
+          },
+          "generatorMetadataList" : [ {
+            "name" : "cloudfoundry",
+            "displayName" : "Cloud Foundry Deployment using the Java Buildpack and RabbitMQ service",
+            "description" : "Deploy a Spring Boot application to Cloud Foundry with RabbitMQ service.",
+            "iconUrl" : "https://pbs.twimg.com/profile_images/1151235235968716800/VJI_bxtd_400x400.jpg",
+            "maintainer" : "mpollack@vmware.com",
+            "version" : "2.4.1",
+            "tags" : "cloudfoundry, java-buildpack, rabbitmq, spring",
+            "sourceUrl" : "github.com/markpollack/generator-cloudfoundry",
+            "homeUrl" : "https://github.com/markpollack/generator-cloudfoundry",
+            "commands" : "cloudfoundry new",
+            "id" : 18
+          } ],
+          "starterName" : "boot-angular-gateway-oidc-starter",
+          "actionList" : [ {
+            "name" : "github-repo-create",
+            "version" : "1.0.0",
+            "displayName" : "Create a github repository",
+            "description" : "Creates a github repository",
+            "iconUrl" : "https://i.imgur.com/yj0qhXm.png",
+            "maintainer" : "mpollack@vmware.com",
+            "tags" : "github",
+            "steps" : [ {
+              "name" : "CreateStarterProjectStep",
+              "className" : "com.vmware.tss.server.steps.CreateStarterProjectStep"
+            }, {
+              "name" : "GeneratorStep",
+              "className" : "com.vmware.tss.server.steps.GeneratorStep"
+            }, {
+              "name" : "CreateGitHubRepoStep",
+              "className" : "com.vmware.tss.server.steps.CreateGitHubRepoStep"
+            } ],
+            "id" : 19
+          } ],
+          "_links" : {
+            "self" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/30{?projection}",
+              "templated" : true
+            },
+            "actionList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/30/actionList"
+            },
+            "starterMetadata" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/30/starterMetadata"
+            },
+            "generatorMetadataList" : {
+              "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/starter/30/generatorMetadataList"
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/18"
+        },
+        "generatorMetadata" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/18"
+        },
+        "starters" : {
+          "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/18/starters{?projection}",
+          "templated" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata?page=0"
+    },
+    "profile" : {
+      "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/profile/generatorMetadata"
+    },
+    "search" : {
+      "href" : "http://preview-scdc1-staging-tss-server.svc-stage.eng.vmware.com/api/generatorMetadata/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 8,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
